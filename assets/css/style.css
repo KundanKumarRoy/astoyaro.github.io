@@ -332,5 +332,17 @@ input:focus{
     margin: 0 auto;
     line-height: 250px;
 }
-
+.hero{
+    width: 100%;
+    height: calc(50vh - 60px);
+    background-color: #fcb600;
+    border-bottom-left-radius:100% ;
+    
+}
+.welcome-intro h1{
+    font-size: 15px!important;
+}
+.cust-form{
+    width: 100%!important;
+}
 }
