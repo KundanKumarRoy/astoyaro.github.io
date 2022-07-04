@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* ************************ Root Class **************************/
+:root{
+	--color-nav:#fcb600;
+    --color-anchor:#ffffff;
+   --font-color:#490e68;
+}
+ 
+/* ******************** Global class start ********************* */
+body{
+	color: #777777;
+	font-family: 'Rajdhani', sans-serif;
+	overflow-x: hidden;
+   }
+
+h1,h2,h3,h4,h5,h6{
+	color: var(--color-black);
+	font-family: 'Rajdhani', sans-serif;
+}
+
+.nav-bg{
+	background-color: #ecae07;
+    
+}
+.icon-color{
+    color: var(--color-nav);
+}
+.font-color{
+    color: var(--color-anchor);
+}
+.t-color{
+    color: var(--font-color)!important;
+}
+
+/* ******************** Global Class End ********************* */
+
+/* ********************* Sticky Cllasses ********************* */
+
+.sticky{
+	position: fixed;
+	top: 0!important;
+	left: 0;
+	width: 100%;
+	z-index: 99;
+	background-color:#ecae07;
+	box-shadow: 0 13px 35px -12px rgba(61,82,96,.2);
+	animation: stickyMenu 0.75s ease-in-out;
+}
+@keyframes stickyMenu{
+	0%{
+		margin-top: -120px;
+		opacity: 0;
+	}
+	50%{
+		margin-top: -64px;
+		opacity: 0;
+	}
+	100%{
+		margin-top: 0px;
+		opacity: 1;
+	}
+}
+/* **************** Navbar Style******************** */
+.nav-link{
+	color: var(--font-color);
+	font-family: 'Philosopher', sans-serif;
+	transition: all 0.5s ease-in-out;
+	padding: 10px 15px!important;
+    font-weight: bold!important;
+}
+.nav-link:hover{
+	color:#9B5967;
+}
+
+.dropdown-item:hover{
+	background-color: var(--color-nav);
+	color: var(--color-anchor);
+}
+.navbar{
+	position: sticky;
+	top: 0px;
+	left: 0;
+	width: 100%;
+	
+}
+.navbar-toggler {
+    
+    line-height: 0;
+   
+    margin-right: 15px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+/* ********************* Home Section ******************** */
+.hero{
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color: #fcb600;
+    border-bottom-left-radius:100% ;
+    
+}
+
+.welcome-intro span,h1{
+letter-spacing: 5px;
+z-index: 1002;
+}
+.form-control{
+    background-color: transparent!important;
+    color: var(--font-color)!important;
+    border-top-left-radius: 100px!important;
+    border-bottom-left-radius: 100px!important;
+    padding-left: 30px!important;
+    font-weight: bold;
+}
+::placeholder{
+    color: #490e68!important;
+    font-size: 22px;
+    font-weight: bold;
+}
+.rounded-search{
+    border-top-right-radius: 100px!important;
+    border-bottom-right-radius: 100px!important;
+    color: #490e68!important;
+    font-size: 30px!important;
+}
+/* ***********************ast-slide-1********************* */
+.ast-slide-1{
+    width: 100%;
+    height: 150px;
+    background-color:#fff;
+    border-radius: 15px;
+    font-size: 22px!important;
+   
+}
+.fa-file-alt{
+    font-size: 5rem; 
+    color: var(--color-nav)
+
+}
+/* ************************ About section******************* */
+.about-hero{
+    width: 100%;
+   
+    background-image: linear-gradient(120deg,rgba(97, 131, 226, 0.3),rgba(101, 122, 243, 0.3)),url('../image/abt-hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.abt-img{
+    margin: 0 auto;
+    line-height: 300px;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+  
+   animation-name: rotation;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   animation-timing-function:linear;
+}
+
+
+@keyframes rotation{
+    0%{
+        transform: rotate(360deg);
+    }
+   
+}
+
+/* *********************tarot card********************* */
+.zodiac-card {
+    position: relative;
+    width: 213px;
+    height: 425px;
+    perspective: 500;
+    transition: all 1s ease-in-out;
+    
+}
+.content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+   
+}
+
+.zodiac-card:hover .content {
+    transform: rotateY(180deg);
+}
+.zodiac-card:hover{
+    box-shadow: 0px 10px 15px -10px #777777;
+    
+}
+.zodiac-card:hover a{
+color: #023C40;
+}
+.front,
+.back {
+    width: 100%;
+    height: 381px;
+    position: absolute;
+    background-color: white;
+   
+    text-align: center;
+    backface-visibility: hidden;
+}
+
+.back {
+    width: 100%;
+    max-height: 381px;
+    background-color: #023C40;
+    color: white;
+    transform: rotateY(180deg);
+   text-align: justify;
+   
+}
+.zodiac-card h4{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+ 
+    text-align: center;
+    width: 100%;
+}
+.zodiac-card a{
+    color: tomato;
+    transition: all 1s ease-in-out;
+}
+.more-btn{
+width: 100px!important;
+margin: 50px auto;
+}
+/* ************************ Tarot Card overlay**************** */
+
+/* ********************** footer-content style start ****************** */
+.footer-content ul li{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	margin-right: 10px;
+	background-color: #777777;
+	
+}
+.footer-content ul li a{
+	color: #fff;
+}
+.footer-content ul li:hover{
+	background-color: var(--color-orange);
+}
+
+/* ****************** Footer letter ******************** */
+.footer-letter-title:after{
+	content: "";
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 70px;
+    background-color: var(--color-orange);
+    height: 2px;
+}
+.footer-letter-title{
+
+width: 100%;
+margin-top: 0px;
+margin-bottom: 25px;
+font-size: 20px;
+color: #ffffff;
+text-transform: capitalize;
+position: relative;
+padding-bottom: 15px;
+}
+.footer-newsletter-box input{
+	border:none;
+	padding: 10px;
+	outline: none;
+	background-color: transparent;
+}
+.footer-newsletter-box,.footer-newsletter-box button{
+	border: 1px solid var(--color-anchor);
+	border-radius: 5px;
+}
+.footer-newsletter-box button{
+	background-color: transparent;
+}
+input:focus{
+	background-color: transparent!important;
+	box-shadow: none!important;
+}
+.footer-newsletter-box button:hover{
+	background-color: var(--color-orange);
+	color: var(--color-anchor);
+	border: 1px solid var(--color-orange);
+	
+}
+
+/* ********************footer-service-link***************** */
+.footer-service-link ul li{
+	list-style: none;
+}
+.footer-service-link ul li a{
+	float: left;
+    width: 100%;
+    color: #ffffff;
+    text-transform: capitalize;
+    padding: 5px 0px 7px 0px;
+    border-bottom: 2px solid var(--color-orange);
+    transition: all 0.5s;
+	text-decoration: none;
+}
+.coyright-section{
+	border-top: 1px dotted #fff;
+	padding-top: 20px;
+	margin: 20px;
+}
+/* ********************** footer-content style start ****************** */
+
+
+/* ************************Mediea Query ********************** */
+@media (max-width:420px){
+.abt-img{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    line-height: 250px;
+}
+
+}
