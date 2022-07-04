@@ -334,7 +334,7 @@ input:focus{
 }
 .hero{
     width: 100%;
-    height: calc(50vh - 60px);
+    height: calc(60vh - 60px);
     background-color: #fcb600;
     border-bottom-left-radius:100% ;
     
