@@ -36,6 +36,16 @@ h1,h2,h3,h4,h5,h6{
 .t-color{
     color: var(--font-color)!important;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+ul li{
+    list-style: none;
+}
+.star-color{
+    color: var(--color-nav);
+}
 
 /* ******************** Global Class End ********************* */
 
@@ -139,11 +149,17 @@ z-index: 1002;
     font-size: 22px!important;
    
 }
-.fa-file-alt{
+.fa-file-alt,
+.fa-heart,
+.fa-walking,
+.fa-rupee-sign,
+.fa-suitcase,
+.fa-users,.fs-style{
     font-size: 5rem; 
     color: var(--color-nav)
 
 }
+
 /* ************************ About section******************* */
 .about-hero{
     width: 100%;
@@ -175,154 +191,89 @@ z-index: 1002;
    
 }
 
-/* *********************tarot card********************* */
-.zodiac-card {
-    position: relative;
-    width: 213px;
-    height: 425px;
-    perspective: 500;
-    transition: all 1s ease-in-out;
-    
+
+/* ************************ offer-banner **************** */
+.offer-banner{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(20deg,#b2acf6,#ee8a9a);
+    border-radius: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
-.content {
+.banner-badge{
+    width: 200px;
+    height: 40px;
+    background-color: green;
+    transform: rotate(315deg) skew(30deg);
+    position: absolute;
+    top: 3px;
+    left: -60px;
+    text-align: center;
+}
+.banner-badge span{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+     margin-right: 20px;
+     line-height: 40px;
+     font-weight: bold;
+} 
+.offer-logo{
+    width: 250px;
+    height: 250px;
+  
+    margin-left:50px;
+}
+.offer-logo img{
     width: 100%;
     height: 100%;
-    position: absolute;
-    transition: transform 1s;
-    transform-style: preserve-3d;
-   
 }
-
-.zodiac-card:hover .content {
-    transform: rotateY(180deg);
+.offer-banner .banner-content{
+    margin-left: 20px;
 }
-.zodiac-card:hover{
-    box-shadow: 0px 10px 15px -10px #777777;
-    
+.banner-content {
+    margin-left: 100px!important;
 }
-.zodiac-card:hover a{
-color: #023C40;
-}
-.front,
-.back {
-    width: 100%;
-    height: 381px;
-    position: absolute;
-    background-color: white;
-   
-    text-align: center;
-    backface-visibility: hidden;
-}
-
-.back {
-    width: 100%;
-    max-height: 381px;
-    background-color: #023C40;
+ .banner-content h2{
+    font-size: 50px!important;
+    font-weight: 700;
     color: white;
-    transform: rotateY(180deg);
-   text-align: justify;
-   
 }
-.zodiac-card h4{
+.banner-content h4{
+    font-size: 30px!important;
+    font-weight: 700;
+    color: white;
+}
+.banner-content span{
+    font-size: 25px!important;
+    font-weight: 400;
+    color: white;
+}
+/*  */
+.call-now-btn{
     position: absolute;
-    bottom: 0;
-    left: 0;
- 
-    text-align: center;
+    bottom:50px;
+    right: 50px;
+}
+
+/********************** our asto list****************** */
+.asto-list{
+    border-radius: 15px;
+}
+.asto-list .asto-img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+    border-radius: 100%;
+}
+ .asto-img img{
     width: 100%;
+    height: 100%;
+    border: 1px solid green;
+    border-radius: 100%;
 }
-.zodiac-card a{
-    color: tomato;
-    transition: all 1s ease-in-out;
-}
-.more-btn{
-width: 100px!important;
-margin: 50px auto;
-}
-/* ************************ Tarot Card overlay**************** */
-
-/* ********************** footer-content style start ****************** */
-.footer-content ul li{
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	margin-right: 10px;
-	background-color: #777777;
-	
-}
-.footer-content ul li a{
-	color: #fff;
-}
-.footer-content ul li:hover{
-	background-color: var(--color-orange);
-}
-
-/* ****************** Footer letter ******************** */
-.footer-letter-title:after{
-	content: "";
-    position: absolute;
-    bottom: 0%;
-    left: 0%;
-    width: 70px;
-    background-color: var(--color-orange);
-    height: 2px;
-}
-.footer-letter-title{
-
-width: 100%;
-margin-top: 0px;
-margin-bottom: 25px;
-font-size: 20px;
-color: #ffffff;
-text-transform: capitalize;
-position: relative;
-padding-bottom: 15px;
-}
-.footer-newsletter-box input{
-	border:none;
-	padding: 10px;
-	outline: none;
-	background-color: transparent;
-}
-.footer-newsletter-box,.footer-newsletter-box button{
-	border: 1px solid var(--color-anchor);
-	border-radius: 5px;
-}
-.footer-newsletter-box button{
-	background-color: transparent;
-}
-input:focus{
-	background-color: transparent!important;
-	box-shadow: none!important;
-}
-.footer-newsletter-box button:hover{
-	background-color: var(--color-orange);
-	color: var(--color-anchor);
-	border: 1px solid var(--color-orange);
-	
-}
-
-/* ********************footer-service-link***************** */
-.footer-service-link ul li{
-	list-style: none;
-}
-.footer-service-link ul li a{
-	float: left;
-    width: 100%;
-    color: #ffffff;
-    text-transform: capitalize;
-    padding: 5px 0px 7px 0px;
-    border-bottom: 2px solid var(--color-orange);
-    transition: all 0.5s;
-	text-decoration: none;
-}
-.coyright-section{
-	border-top: 1px dotted #fff;
-	padding-top: 20px;
-	margin: 20px;
-}
-/* ********************** footer-content style start ****************** */
-
 
 /* ************************Mediea Query ********************** */
 @media (max-width:420px){
@@ -334,7 +285,7 @@ input:focus{
 }
 .hero{
     width: 100%;
-    height: calc(60vh - 60px);
+    height: calc(50vh - 60px);
     background-color: #fcb600;
     border-bottom-left-radius:100% ;
     
@@ -344,5 +295,37 @@ input:focus{
 }
 .cust-form{
     width: 100%!important;
+}
+.offer-banner{
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+.banner-content h2{
+    font-size: 25px!important;
+    font-weight: 400;
+    color: white;
+}
+.banner-content h4{
+    font-size: 15px!important;
+    font-weight: 300;
+    color: white;
+}
+.banner-content span{
+    font-size: 10px!important;
+    font-weight: 400;
+    color: white;
+}
+.offer-logo{
+    width: 150px;
+    height: 150px;
+  
+    margin-left:50px;
+}
+.call-now-btn{
+    position: absolute;
+    bottom:10px;
+    right: 10px;
+    
 }
 }
