@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
 *{
 	margin: 0;
 	padding: 0;
@@ -39,6 +39,7 @@ h1,h2,h3,h4,h5,h6{
 a{
     text-decoration: none;
     color: black;
+    cursor: pointer!important;
 }
 ul li{
     list-style: none;
@@ -121,17 +122,18 @@ ul li{
 letter-spacing: 5px;
 z-index: 1002;
 }
-.form-control{
+.cust-form .form-control{
     background-color: transparent!important;
     color: var(--font-color)!important;
     border-top-left-radius: 100px!important;
     border-bottom-left-radius: 100px!important;
     padding-left: 30px!important;
     font-weight: bold;
-}
+    box-shadow: none!important;
+}  
 ::placeholder{
     color: #490e68!important;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
 }
 .rounded-search{
@@ -274,6 +276,16 @@ z-index: 1002;
     border: 1px solid green;
     border-radius: 100%;
 }
+.slick-list{
+    height: 300px;
+}
+/* ********************** Contact us Section **************************** */
+.icon{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+
+}
 
 /* ************************Mediea Query ********************** */
 @media (max-width:420px){
@@ -285,7 +297,7 @@ z-index: 1002;
 }
 .hero{
     width: 100%;
-    height: calc(50vh - 60px);
+    height:50vh;
     background-color: #fcb600;
     border-bottom-left-radius:100% ;
     
