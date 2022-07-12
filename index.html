@@ -8,7 +8,7 @@
     <title>Astro Yaro</title>
     <!-- <link rel="shortcut icon" type="image/png" href="asset/image/Frame 6929
       favicon.png"> -->
-      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- ******************* Fontawesome link********************** -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
     <!-- ****************** Bootstrap css******************** -->
@@ -24,8 +24,7 @@
         integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+     
 
     <!-- ********************** Custome Css ********************* -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -107,7 +106,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item me-3">
-                        <a class="nav-link" aria-current="page" href="#Home">Home</a>
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
                     </li>
                     <!-- <li class="nav-item me-3">
                         <a class="nav-link" href="#service">Service</a>
@@ -119,30 +118,14 @@
                         <a class="nav-link" aria-current="page" href="#astrologers">Astrologers</a>
                     </li>
                     <li class="nav-item me-3">
-                        <a class="nav-link" aria-current="page" href="#horoscopes">Horoscopes</a>
+                        <a class="nav-link" aria-current="page" href="#horoscope">Horoscopes</a>
                     </li>
                     <li class="nav-item me-3">
                         <a class="nav-link" aria-current="page" href="#about_us">About Us</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Our Services
-                        </a>
-                        <!-- <ul class="dropdown-menu p-0" aria-labelledby="navbarDropdown">
-                            <li>
-                                <a class="dropdown-item" href="shop.html">Our Services</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="Single-shop.html">Shop Single</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="cart.html">Cart</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="CheckOut.html">Check Out</a>
-                            </li>
-                        </ul> -->
+                        <a class="nav-link" aria-current="page" href="#services">Services</a>
+
                     </li>
                     <li class="nav-item">
                         <a href="#contact" class="nav-link me-3">
@@ -155,7 +138,7 @@
         </div>
     </nav>
     <!-- ********************** Home Section ********************** -->
-    <section class="py-5 hero" id="about">
+    <section class="py-5 hero" id="home">
         <div class="container h-100 ">
             <div class="row h-100 align-items-center ">
                 <div class="col-12 col-md-12 col-lg-12 ">
@@ -317,8 +300,6 @@
         </div>
     </section>
     <!-- *********************about****************** -->
-
-
     <section class=" py-5 about-hero">
         <div class="container">
             <div class="row">
@@ -363,7 +344,7 @@
         </div>
     </section>
     <!-- ********************Our Services ************************ -->
-    <section class="py-3">
+    <section class="py-3" id="services">
         <div class="container">
             <h2 class="text-center t-color mb-3">Our Services</h2>
             <div class="row justify-content-between gy-4 g-md-4">
@@ -446,9 +427,9 @@
     </section>
 
     <!-- ************************** Our Astrologer************************* -->
-    <section id="Our-asto" class="bg-dark py-3 " >
+    <section id="astrologers" class="bg-dark py-3 ">
         <div class="container">
-            <h2 class="text-center text-white mb-3">Our Services</h2>
+            <h2 class="text-center text-white mb-3">Astrologers</h2>
             <div class="row sliders">
                 <div class="col-12 col-md-3 shadow-sm bg-white rounded p-2">
                     <div class="asto-list ">
@@ -628,62 +609,60 @@
         </div>
     </section>
     <!--***************************Today Horoscope **********************************  -->
-    <section class=" nav-bg py-5">
+    <section class=" nav-bg py-5" id="horoscope">
         <div class="container">
-            <h2 class="text-center t-color mb-3">Horoscopes</h2> 
-            <div class="row">
-                <div class="col-12 col-md-4"data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000">
+            <h2 class="text-center t-color mb-3">Horoscopes</h2>
+            <div class="row g-3">
+                <div class="col-12 col-md-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                     <div class="horo-outerbox">
-                    <a href="#"> 
-                        <div class="horo-inner-box">
-                            <img src="assets/image/daily_horoscope.webp" alt="Monthly_horoscope"
-                                class="img-fluid rounded">
-                        </div>
-                        <h4 class="text-white fw-bold">Daily Horoscopes</h4>
-                        <p class="text-white">Oh no! This article fell into a black hole. Please check back later for
-                            astrological insight!</p>
-                        <div class="text-white ">Continue reading <i class="icon-arrow"></i></div>
-                        </a> 
+                        <a href="#">
+                            <div class="horo-inner-box">
+                                <img src="assets/image/daily_horoscope.webp" alt="Monthly_horoscope"
+                                    class="img-fluid rounded w-100">
+                            </div>
+                            <h4 class="text-white fw-bold">Daily Horoscopes</h4>
+                            <p class="text-white">Oh no! This article fell into a black hole. Please check back later
+                                for
+                                astrological insight!</p>
+                            <div class="text-white ">Continue reading <i class="icon-arrow"></i></div>
+                        </a>
                     </div>
                 </div>
 
-                <div class="col-12 col-md-4" data-aos="zoom-in"> 
+                <div class="col-12 col-md-4" data-aos="zoom-in">
                     <div class="horo-outerbox">
-                    <a href="#"> 
-                        <div class="horo-inner-box">
-                            <img src="assets/image/monthly.jpg" alt="Monthly_horoscope"
-                                class="img-fluid rounded">
-                        </div>
-                        <h4 class="text-white fw-bold">Monthly Horoscopes</h4>
-                        <p class="text-white">Oh no! This article fell into a black hole. Please check back later for
-                            astrological insight!</p>
-                        <div class="text-white ">Continue reading <i class="icon-arrow"></i></div>
-                        </a> 
+                        <a href="#">
+                            <div class="horo-inner-box">
+                                <img src="assets/image/monthly.jpg" alt="Monthly_horoscope" class="img-fluid rounded w-100">
+                            </div>
+                            <h4 class="text-white fw-bold">Monthly Horoscopes</h4>
+                            <p class="text-white">Oh no! This article fell into a black hole. Please check back later
+                                for
+                                astrological insight!</p>
+                            <div class="text-white ">Continue reading <i class="icon-arrow"></i></div>
+                        </a>
                     </div>
                 </div>
-
-                <div class="col-12 col-md-4" data-aos="flip-right"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000"> 
+                <div class="col-12 col-md-4" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                     <div class="horo-outerbox">
-                    <a href="#"> 
-                        <div class="horo-inner-box">
-                            <img src="assets/image/july-horoscopes.webp" alt="Monthly_horoscope"
-                                class="img-fluid rounded">
-                        </div>
-                        <h4 class="text-white fw-bold">Yearly Horoscopes</h4>
-                        <p class="text-white">Oh no! This article fell into a black hole. Please check back later for
-                            astrological insight!</p>
-                        <div class="text-white ">Continue reading <i class="icon-arrow"></i></div>
-                        </a> 
+                        <a href="#">
+                            <div class="horo-inner-box">
+                                <img src="assets/image/yearly.jpg" alt="Monthly_horoscope" class="img-fluid rounded w-100">
+                            </div>
+                            <h4 class="text-white fw-bold">Yearly Horoscopes</h4>
+                            <p class="text-white">Oh no! This article fell into a black hole. Please check back later
+                                for
+                                astrological insight!</p>
+                            <div class="text-white ">Continue reading <i class="icon-arrow"></i></div>
+                        </a>
                     </div>
-                </div> 
+                </div>
             </div>
         </div>
     </section>
-    <!--**************************** Today Horoscope-2 ******************* --> 
+    <!--**************************** Today Horoscope-2 ******************* -->
     <section class="nav-bg py-2">
         <hr>
         <div class="container">
@@ -691,170 +670,175 @@
                 <ul class="d-flex justify-content-center flex-wrap  my-auto ">
                     <li class="me-3">
                         <a href="#" class="t-color fw-bold">
-                            <img src="assets/image/aries.png" alt="aries" class="img-fluid">
-                          <div class="text-center text-white ">  ARIES </div>
-                        </a> 
+                            <img src="assets/image/aries.png" alt="aries" class="img-fluid " >
+                            <div class="text-center text-white "> ARIES </div>
+                        </a>
                     </li>
 
                     <li class="me-3">
                         <a href="#" class="t-color fw-bold">
-                            <img src="assets/image/taurus.png" alt="aries" class="img-fluid"> 
+                            <img src="assets/image/taurus.png" alt="aries" class="img-fluid">
                             <div class="text-center text-white ">TAURUS</div>
-                         </a> 
+                        </a>
                     </li>
                     <li class="me-3">
                         <a href="#" class="t-color fw-bold">
-                            <img src="assets/image/gemini.png" alt="aries" class="img-fluid"> 
+                            <img src="assets/image/gemini.png" alt="aries" class="img-fluid">
                             <div class="text-center text-white ">GEMINI</div>
-                        </a> 
+                        </a>
                     </li>
                     <li class="me-3">
                         <a href="#" class="t-color fw-bold">
                             <img src="assets/image/cancer.png" alt="aries" class="img-fluid">
                             <div class="text-center text-white ">CANCER</div>
-                             </a> 
+                        </a>
                     </li>
                     <li class="me-3">
                         <a href="#" class="t-color fw-bold">
                             <img src="assets/image/leo.png" alt="aries" class="img-fluid">
                             <div class="text-center text-white ">LEO</div>
-                             </a> 
+                        </a>
                     </li>
-                    
+
                     <li class="me-3">
                         <a href="#" class="t-color fw-bold">
                             <img src="assets/image/virgo.png" alt="aries" class="img-fluid">
                             <div class="text-center text-white ">VIRGO</div>
-                             </a> 
+                        </a>
                     </li>
                     <li class="me-3">
                         <a href="#" class="t-color fw-bold">
                             <img src="assets/image/libra.png" alt="aries" class="img-fluid">
                             <div class="text-center text-white ">LIBRA</div>
-                             </a> 
+                        </a>
                     </li>
                     <li class="me-3">
                         <a href="#" class="t-color fw-bold">
                             <img src="assets/image/scorpio.png" alt="aries" class="img-fluid">
                             <div class="text-center text-white ">SCORPIO</div>
-                            </a> 
+                        </a>
                     </li>
                     <li class="me-3">
                         <a href="#" class="t-color fw-bold">
                             <img src="assets/image/sagittarius.png" alt="aries" class="img-fluid">
                             <div class="text-center text-white ">SAGITTARIUS</div>
-                            </a> 
+                        </a>
                     </li>
                     <li class="me-3">
                         <a href="#" class="t-color fw-bold">
                             <img src="assets/image/capricorn.png" alt="aries" class="img-fluid">
                             <div class="text-center text-white ">CAPRICORN</div>
-                            </a> 
+                        </a>
                     </li>
                     <li class="me-3">
                         <a href="#" class="t-color fw-bold">
                             <img src="assets/image/aquarius.png" alt="aries" class="img-fluid">
                             <div class="text-center text-white ">AQUARIUS</div>
-                            </a> 
+                        </a>
                     </li>
                     <li class="me-3 ">
                         <a href="#" class="t-color fw-bold ">
                             <img src="assets/image/pisces.png" alt="aries" class="img-fluid">
                             <div class="text-center text-white ">PISCES</div>
-                            </a> 
+                        </a>
                     </li>
-                    
+
                 </ul>
             </div>
         </div>
         <hr>
-    </section> 
+    </section>
     <!-- *************************** Contact us ************************* -->
-    <section class="py-3">
+    <section class="py-3" id="contact">
         <div class="container shadow-lg p-3">
             <div class="row">
-                <div class="col-12 col-md-5" >
+                <div class="col-12 col-md-5" data-aos="zoom-in">
                     <h2 class="text-dark fw-bold mb-3">Contact Us</h2>
                     <ul class="footer-address-list ftr-details">
-						<li class="  d-flex">
-							<span><i class="fas fa-envelope me-2 t-color"></i></span>
-							<p>Email <span> <a href=" ">info@teknikoglobal.com</a></span>
-							</p>
-						</li>
-						<li class="  d-flex">
-							<span><i class="fas fa-phone-alt me-2 t-color"></i></span>
-							<p>Phone <span> <a href=" ">+91-7321961084</a></span></p>
-						</li>
-						<li class="  d-flex">
-							<span><i class="fas fa-map-marker-alt me-2 t-color"></i></span>
-							<p>Address <span> C-4 Sector 63 Noida, Uttar Pradesh 201301</span></p>
-						</li>
-					</ul>
+                        <li class="  d-flex">
+                            <span><i class="fas fa-envelope me-2 t-color"></i></span>
+                            <p>Email <span> <a href=" ">info@teknikoglobal.com</a></span>
+                            </p>
+                        </li>
+                        <li class="  d-flex">
+                            <span><i class="fas fa-phone-alt me-2 t-color"></i></span>
+                            <p>Phone <span> <a href=" ">+91-7321961084</a></span></p>
+                        </li>
+                        <li class="  d-flex">
+                            <span><i class="fas fa-map-marker-alt me-2 t-color"></i></span>
+                            <p>Address <span> C-4 Sector 63 Noida, Uttar Pradesh 201301</span></p>
+                        </li>
+                    </ul>
 
                 </div>
                 <div class="col-12 col-md-7" data-aos="zoom-in">
-                    <div class="  " >
+                    <div class="  ">
                         <h3 class=" text-dark mb-3 fw-bold ">Contact Via Mail</h3>
-                         <form class="row g-3">
-                             <div class="col-md-6">
-                                 <input type="text" class="form-control " id="InputName" placeholder=" Full Name*" required="" aria-required="true">
-                             </div> 
-                             <div class="col-md-6">
-                                 <input type="text" class="form-control" id="InputNumber" placeholder="Mobile Number" required="" aria-required="true">
-                             </div>
-                             <div class="col-md-6">
-                                 <input type="email" class="form-control" id="inputEmail4" placeholder="Email Address*" required="" aria-required="true">
-                             </div> 
-                             <div class="col-md-6">
-                                <input type="email" class="form-control" id="inputEmail4" placeholder="Subject of Contact*" required="" aria-required="true">
-                            </div> 
-                             <div class="col-md-12">
-                                 <textarea class="form-control t-area" aria-label="With textarea" placeholder="Message*"></textarea>
-                             </div> 
-                             <div class="col-12 text-center">
-                                 <button type="submit" class="btn  text-white nav-bg rounded">Send Now</button>
-                             </div>
-                         </form>
-                     </div>
+                        <form class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control " id="InputName" placeholder=" Full Name*"
+                                    required="" aria-required="true">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" id="InputNumber" placeholder="Mobile Number"
+                                    required="" aria-required="true">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email Address*"
+                                    required="" aria-required="true">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" id="inputEmail4"
+                                    placeholder="Subject of Contact*" required="" aria-required="true">
+                            </div>
+                            <div class="col-md-12">
+                                <textarea class="form-control t-area" aria-label="With textarea"
+                                    placeholder="Message*"></textarea>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn  text-white nav-bg rounded">Send Now</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
 
             </div>
         </div>
     </section>
     <!-- footer section -->
-   
+
 
     <!-- *****************************footer section *********************** -->
     <footer class="py-2 nav-bg text-center">
-     <a href="" >
-        <img src="assets/image/ast-logo.png" alt="ast-logo" class="img-fluid" width="50" height="50">
+        <a href="">
+            <img src="assets/image/ast-logo.png" alt="ast-logo" class="img-fluid" width="50" height="50">
 
-     </a>
-    <div class="container">
-        <div class="row">
-            <ul class="d-flex justify-content-center flex-wrap  my-auto ">
-                <li class="me-3">
-                    <a href="#" class="t-color fw-bold">Home </a> 
-                </li>
+        </a>
+        <div class="container">
+            <div class="row">
+                <ul class="d-flex justify-content-center flex-wrap  my-auto ">
+                    <li class="me-3">
+                        <a href="#home" class="t-color fw-bold">Home </a>
+                    </li>
 
-                <li class="me-3">
-                    <a href="#" class="t-color fw-bold">Contact Us </a> 
-                </li>
-                <li class="me-3">
-                    <a href="#" class="t-color fw-bold">About Us
-                    </a> 
-                </li>
-                <li class="me-3">
-                    <a href="#" class="t-color fw-bold">Term & Conditions </a> 
-                </li>
-                <li class="me-3">
-                    <a href="#" class="t-color fw-bold">Privacy </a> 
-                </li>
-              
+                    <li class="me-3">
+                        <a href="#contact" class="t-color fw-bold">Contact Us </a>
+                    </li>
+                    <li class="me-3">
+                        <a href="#" class="t-color fw-bold">About Us
+                        </a>
+                    </li>
+                    <li class="me-3">
+                        <a href="#" class="t-color fw-bold">Term & Conditions </a>
+                    </li>
+                    <li class="me-3">
+                        <a href="#" class="t-color fw-bold">Privacy </a>
+                    </li>
+
+            </div>
         </div>
-    </div>
     </footer>
-   
+
     <!-- ************************ jquery******************* -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -870,12 +854,12 @@
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-        <!-- Aos animation -->
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Aos animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assets/js/main.js"></script>
-<script>
-  AOS.init();
-</script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
