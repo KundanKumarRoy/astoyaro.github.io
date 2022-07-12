@@ -8,8 +8,7 @@
     <title>Astro Yaro</title>
     <!-- <link rel="shortcut icon" type="image/png" href="asset/image/Frame 6929
       favicon.png"> -->
-    <!-- ******************** Animation.css****************** -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- ******************* Fontawesome link********************** -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
     <!-- ****************** Bootstrap css******************** -->
@@ -160,7 +159,7 @@
         <div class="container h-100 ">
             <div class="row h-100 align-items-center ">
                 <div class="col-12 col-md-12 col-lg-12 ">
-                    <div class="welcome-intro text-center px-3 ">
+                    <div class="welcome-intro text-center px-3 " data-aos="zoom-in">
                         <span class="t-color fw-bold">Predict future</span>
                         <h1 class="fw-bolder dispaly-1 text-white mt-3">your path is illuminated by a
                             <br>road-map of stars</h1>
@@ -179,7 +178,7 @@
 
                 </div>
                 <!-- desktop view -->
-                <div class="col-12 d-none d-md-block">
+                <div class="col-12 d-none d-md-block" data-aos="zoom-in-up">
                     <div class="row p-5 g-3 ">
 
                         <div class="col-6 col-md-2">
@@ -633,7 +632,7 @@
         <div class="container">
             <h2 class="text-center t-color mb-3">Horoscopes</h2> 
             <div class="row">
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4" data-aos="zoom-in">
                     <div class="horo-outerbox">
                     <a href="#"> 
                         <div class="horo-inner-box">
@@ -648,7 +647,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4" data-aos="zoom-in"> 
                     <div class="horo-outerbox">
                     <a href="#"> 
                         <div class="horo-inner-box">
@@ -663,7 +662,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4" data-aos="zoom-in"> 
                     <div class="horo-outerbox">
                     <a href="#"> 
                         <div class="horo-inner-box">
@@ -770,7 +769,7 @@
     <section class="py-3">
         <div class="container shadow-lg p-3">
             <div class="row">
-                <div class="col-12 col-md-5">
+                <div class="col-12 col-md-5" >
                     <h2 class="text-dark fw-bold mb-3">Contact Us</h2>
                     <ul class="footer-address-list ftr-details">
 						<li class="  d-flex">
@@ -789,7 +788,7 @@
 					</ul>
 
                 </div>
-                <div class="col-12 col-md-7">
+                <div class="col-12 col-md-7" data-aos="zoom-in">
                     <div class="  " >
                         <h3 class=" text-dark mb-3 fw-bold ">Contact Via Mail</h3>
                          <form class="row g-3">
@@ -867,9 +866,12 @@
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-
+        <!-- Aos animation -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assets/js/main.js"></script>
-
+<script>
+  AOS.init();
+</script>
 
 </body>
 
