@@ -299,7 +299,7 @@ z-index: 1002;
     width: 100%;
     height: 40vh;
     background-color: #fcb600;
-/*     border-bottom-left-radius:100% ; */
+     border-bottom-left-radius:0% ;  
     
 }
 .welcome-intro h1{
