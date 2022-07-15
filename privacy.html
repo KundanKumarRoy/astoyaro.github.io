@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astro Yaro</title>
+    <!-- <link rel="shortcut icon" type="image/png" href="asset/image/Frame 6929
+      favicon.png"> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- ******************* Fontawesome link********************** -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+    <!-- ****************** Bootstrap css******************** -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- **********************slick slider ******************** -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <!-- ********************** Custome Css ********************* -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-12 col-md-4">
+                <div class="contact-details">
+                    <ul class="d-flex list-unstyled mb-0 py-2 justify-content-center
+              justify-content-md-start">
+                        <li>
+                            <i class="fas fa-phone-alt icon-color me-2"></i>
+                            +91 400-4544-721
+
+                        </li>
+                        <li class="ms-3">
+                            <a href="" class="text-decoration-none text-dark">
+                                <i class="fa
+                    fa-envelope-o icon-color me-2"></i>
+                                suport@mail.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="auther-panel">
+                    <ul class="d-flex list-unstyled mb-0 justify-content-evenly">
+                        <li>
+                            <a href="" class="text-dark text-decoration-none">
+                                <i class="fa fa-sign-in icon-color me-2"></i>
+                                Log In
+                            </a>
+
+                        </li>
+                        <li class="">
+                            <a href="" class="text-dark text-decoration-none">
+                                <i class="fa
+                    fa-user-plus icon-color me-2"></i>
+                                Sign Up
+                            </a>
+                        </li>
+                        <li class="form-drop-menu">
+                            <a href="" class="text-dark text-decoration-none">
+                                <i class="fa
+                    fa-search  me-2"></i>
+
+                            </a>
+
+                        </li>
+                        <li class="">
+                            <a href="" class="text-dark text-decoration-none">
+                                <i class="fa
+                    fa-shopping-cart  me-2"></i>
+
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div> -->
+    <!-- ************************** NavBar Start************************* -->
+    <nav class="navbar navbar-expand-lg  nav-bg  mt-md-0 " id="navbar">
+        <div class="container">
+            <a class="navbar-brand t-color fw-bold" href="#">
+                <img src="assets/image/ast-logo.png" alt="ast-logo" class="img-fluid" width="50" height="50">
+            </a>
+            <button class="navbar-toggler  font-color border border-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon font-color" style="line-height: 1.7;">
+                    <i class="fas fa-bars text-white"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item me-3">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" aria-current="page" href="about-us.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" aria-current="page" href="services.html">Services</a>
+
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" aria-current="page" href="Term&condition.html">Term & Conditions</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" aria-current="page" href="privacy.html">Privacy & Policy</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" aria-current="page" href="pricing-policy.html">Pricing & Policy</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Term Condition -->
+    <section class="py-5 all-hero">
+        <div class="container">
+            <div class="row">
+                <h2 class="abt-us text-white position-relative   text-center">Privacy & Policy</h2>
+            </div>
+        </div>
+
+    </section>
+    <!-- ************************privacy content********************* -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class=" py-3 heading position-relative ">-: Privacy :- </h3>
+                    <p>At AstroYaro, we take privacy seriously, and our company is committed to protecting the data of
+                        our website users (both registered and unregistered) and customers. So, we request you to go
+                        through our privacy policies and understand how we take care of your data.</p>
+
+                    <h3 class=" py-3 heading position-relative ">-:Personally identifiable information collected by us:-
+                    </h3>
+
+                    <p>When you register with us, we collect details like name, email address, gender, date of birth,
+                        contact number, location, and other sensitive details. We never violate laws while gathering
+                        information. Without the availability of PII, we will not be able to provide our astrological
+                        services. </p>
+
+                    <ul class="l-itme">
+                        <li>
+                            <b class="text-decoration-underline text-dark">Registration details- </b>Registration
+                            details- As you need to register with us to buy our services, you need to submit some
+                            personal information. It includes your email address, telephone number, address, name,
+                            gender, date of birth, and location. We like to inform you that we retain your personal
+                            details for your security purposes. For users who have not registered with our site, we are
+                            not able to collect their personal details.</p>
+                        </li>
+                        <li>
+                            <b class="text-decocration-underline text-dark">Booking our services</b>When you book our
+                            astrological service, you provide some basic information. It includes your personal details
+                            and financial information, such as your credit and debit cards. We keep these details highly
+                            confidential.
+                        </li>
+                    </ul>
+                    <h3 class=" py-3 heading position-relative ">-:Data that we collect by using technologies :-</h3>
+                    <p>While you are using and accessing our platforms, we can collect some data through our automated
+                        technologies. For instance, the information includes your </p>
+                    <ul class="l-itme text-dark">
+                        <li>
+                            Device type- Mobile versus desktop
+                        </li>
+                        <li> Unique device ID</li>
+                        <li> Advertising ID</li>
+                        <li> Machine ID</li>
+                        <li> Geographic details</li>
+                        <li>Browser type</li>
+                        <li> Connection details</li>
+                        <li> IP address</li>
+                        <li> Domain name</li>
+                        <li> Date and time of your visits</li>
+                        </li>
+                    </ul>
+                    <p>We can also collect your mobile number when you fill out our contact forms. Moreover, we can
+                        record and monitor your live phone conversations with our customer representatives and other
+                        team members. This will help us to ensure that you are getting the best service.</p>
+
+
+                    <h3 class=" py-3 heading position-relative ">-:Disclosure of your information :-
+                    </h3>
+                    <p>We do not share your private details with unauthorized third parties. However, in some cases, we
+                        need to share the data with-</p>
+                    <ul class="l-itme text-dark">
+                        <li><b class="text-decocration-underline text-dark">Our affiliates</b> We disclose your
+                            information to our business affiliates to prevent the
+                            risk of fraudulent activities. Our aim is to keep our website users and customers safe from
+                            fraudsters. But personal data about you is not disclosed to our affiliates without your
+                            permission </li>
+                        <li>
+                            <b class="text-decocration-underline text-dark">Third-party service providers</b> Our
+                            company may need to share your details with our
+                            business partners and authentic third-party service providers. These third parties provide
+                            services like
+
+                            <div>
+
+                                <i class="fas fa-check me-1"></i>Authenticate identities <br>
+                                <i class="fas fa-check me-1"></i>Test our website’s functionalities<br>
+                                <i class="fas fa-check me-1"></i>Send your marketing communications<br>
+                                <i class="fas fa-check me-1"></i>Create and maintain our important database<br>
+                                <i class="fas fa-check me-1"></i>Research and analyze users visiting our website.
+                            </div>
+                        </li>
+                    </ul>
+                    <p>Research and analyze users visiting our website.
+                        However, you can request us not to permit our third-party service providers to use your
+                        information for marketing our services. While transferring PII to these service providers, the
+                        entity will make a contract for using the information. It should also protect information as per
+                        law.
+                    </p>
+                    <ul class="l-itme text-dark">
+                        <li><b>Third parties helping with transactions</b>
+                            <p>Our companies can share your data with third parties that play a role in negotiating
+                                mergers, dissolution, acquisitions, and financing. During any bankruptcy and insolvency,
+                                the information will be transferred as a type of asset.</p>
+                        </li>
+                        <li>
+                            <b>Our advisors</b>
+                            In some cases, we also share data with our legal advisors, auditors, and other similar
+                            third parties. However, we try to keep your data confidential
+                        <li>
+                            <b>Law enforcement</b> Our company discloses your information to legal entities and the
+                            government. Thus, due to court orders and legal obligations. Your data needs to be
+                            shared for law enforcement investigation. We have the right to disclose data collected
+                            through the website to law enforcement officers and government officials.</li>
+                    </ul>
+                    <h3 class=" py-3 heading position-relative ">-:How does our team use your information? </h3>
+                    <p>The major purpose of gathering your personal data is to maintain the connection with you through
+                        our platform. We like to make you familiar with our services, products, and information.
+                        Moreover, we like to promote services that match your preferences and interests. But, we can use
+                        the collected information for different commercial purposes. The data is also useful for several
+                        reasons-</p>
+                    <ul class="l-itme text-dark">
+                        <li>
+                            Helping you to participate in different activities on our website</li>
+                        <li> Providing the most relevant services</li>
+                        <li> Confirming your identity </li>
+                        <li> Enforcing terms of usage and policies on our platform</li>
+                        <li> Fulfilling the order placed on our site</li>
+                        <li> Assisting you in searching for information </li>
+                        <li> Administering your account</li>
+                        <li>Responding to inquiries</li>
+                        <li> Contact you for surveys</li>
+                        <li> Informing you of the modifications to our platforms</li>
+                        <li>Understanding customer trends for our marketing campaigns</li>
+                        <li>Organizing promotional events</li>
+                        <li> Informing you of special offers available on our website</li>
+
+                    </ul>
+                    <p>Most importantly, we use your data for ensuring safe and secure use of the website. It also
+                        enables us to prevent technical issues, security problems, and fraudulence. We may also combine
+                        the information collected from you and third parties to create a customer profile.</p>
+
+                    <h3 class=" py-3 heading position-relative ">-:Maintenance of your data :- </h3>
+                    <p>Our company stores your PII no longer than is required. We will retain your personal data while
+                        complying with legal rules to solve disputes. It may also be essential for enforcing rights and
+                        making agreements. Such information is not removed from our database. Our team puts the best
+                        effort into deleting your personal data after you have stopped using our platform.</p>
+
+                    <h3 class=" py-3 heading position-relative ">-: Security measures :- </h3>
+
+                    <p>
+                        We give importance to the security of personal data provided by our users. We have taken
+                        electronic security steps to prevent unauthorized access to your data. We use a secured server
+                        where we can store user information. Moreover, we have secured our website with the SSL
+                        certificate.
+                    </p>
+                    <p>Still, we do not ensure that data transmission is 100% safe. That is why we instruct everyone not
+                        to share login details with any person. The site is not liable for the security of
+                        communications made by the user via email and other platforms.
+
+                    </p>
+
+                    <h3 class=" py-3 heading position-relative ">-: Your rights :- </h3>
+
+                    <p>You have the right to access your personal data to correct the inaccurate details and any other
+                        reasons. Moreover, you can request us to remove any part of your personal data. Furthermore, you
+                        may restrict our team from processing your personal data. You have the right to request the
+                        transfer of data to third parties.
+                    </p>
+                    <p> Read this privacy policy page regularly to know about updates.</p>
+
+                    <h3 class=" py-3 heading position-relative ">-: Refund And Cancellation Policy:- </h3>
+                    <p>We have created the best platform to provide astrological services to customers from different
+                        parts of the world. Our aim is to satisfy you with highly accurate astrological readings. Still,
+                        a few customers claim a refund for some reason. We do not compel them to pay for the service
+                        that they have not availed of. Our company has implemented some refund and cancellation policies
+                        for our customers.</p>
+                    <ul class="l-itme text-dark">
+                        <li>
+                            Every time customers place an order, it undergoes processing. So, when the order for an
+                            astrological report has reached this processing stage, we will accept no refund request. The
+                            user will bear the liability and risk of placing an order carelessly careless. We will not
+                            be responsible for a refund while we have already processed the order.
+                        </li>
+                        <li> There is no refund for the order, which has already been executed. However, the user can
+                            think of canceling an order before execution by communicating with our customer care
+                            representatives. It should be done within an hour of paying our company. We will then decide
+                            on the potential to refund the amount.</li>
+                        <li> In some cases, our website has technical glitches and errors at the time of processing the
+                            request. You might have placed the order for generating the astrological report. However,
+                            you should acknowledge that the timelines displayed for the report are a rough estimate.
+                        </li>
+                        <li> We request everyone to recheck the information provided to our team. We will not make a
+                            refund request for incorrect information. Thus, before hitting the Submit button, you must
+                            check the accuracy of your details. However, while you have already submitted the data, you
+                            can connect with us in an hour to request a modification. Our team will surely do it for
+                            you.</li>
+                        <li> Our company does not process any refund for returning the damaged product. As a website
+                            user, you should acknowledge that while ordering the displayed product on your site, you
+                            will be liable for post-delivery damages caused to that product. In the case of the COD
+                            payment mode, you will be charged for the product based on what is shown on the platform.
+                            Courier and shipping charges will be applicable.</li>
+                        <li>We can consider a pro-rata refund for the delay in activating subscription services. We will
+                            also make a refund for damages caused to your product during the transit.</li>
+                        <li>You need to acknowledge that the product image displayed on the website is only for
+                            reference purpose. We try our best to deliver the product in the condition that is shown on
+                            the site. You can exercise your own discretion in this situation. We will not make any
+                            refund until you have shown strong reasons.</li>
+                        <li> The products sold by us or services provided by our company are not intended for the
+                            replacement of medical, emotional, and philosophical treatments. The company is not liable
+                            for the reliability of astrological services and the gems sold by us. You will be at the
+                            sole discretion for availing of our services and buying our products.</li>
+                        <li>We will not accept any refund request for providing incorrect contact details. It is
+                            especially true when you like to have the astrological service through email and phone
+                            calls. That is why you should double-check your contact to avoid wasting your money. We will
+                            not process the refund for the call that gets connected.</li>
+                        <li>In some cases, server problems like slow server performance can cause problems to the
+                            payment gateway page connected to our site. Before attempting the second payment, you have
+                            to check your bank account. While the amount has been debited, it is better to avoid making
+                            a repayment.</li>
+                        <li>We will process it after deducting the transaction charges, courier charges, and shipping
+                            charges when you are eligible for the refund. Custom duty is also applicable in some cases.
+                        </li>
+                        <li>In case, when the amount has been debited from your bank account, you must ensure that you
+                            have not paid us twice. You may also connect with our customer representatives to confirm
+                            your payment. On the contrary, you can make a fresh payment when you find the amount not
+                            debited from your account. </li>
+                        <li>In some instances, although you have taken precautionary steps, you make multiple payments
+                            for a particular order. We will surely make a 100% refund the amount without deducting
+                            transaction charges. We will retain the amount needed for the single order.</li>
+                        <li>Some orders are not acceptable to us, and thus, we can cancel them anytime. The reason for
+                            cancellation may be the pricing errors, inaccuracy of details, non-availability of our
+                            service, and several other problems. Due to these unforeseen issues, we will cancel the
+                            order and refund the amount you have paid for booking our services.</li>
+                    </ul>
+                    <p>So, these are some refund and cancellation policies of our company. Before placing your order,
+                        you must read these policies thoroughly. To solve further queries about the refund, you can
+                        contact our team. We will get back to your queries as soon as possible.
+
+                    </p>
+                    <h4 class="text-dark fw-bold text-center">Disclaimer</h4>
+                    <p>AstroYaro is not liable for any communication that takes place between the user and the following
+                        website. The user is recommended to check the third party's privacy policy and other policies on
+                        their websites, and this website will not be found accountable for any such usage made solely
+                        because a reference to the third party's site was presented on this website's webpage. The
+                        information that we have published on our website should be considered only for entertainment
+                        purposes. Although you receive the message and astrological predictions, you must choose them as
+                        the substitute for medical treatment, programs, psychiatric advice, and financial services
+                        received from licensed professionals. We do not provide any type of assurances, guarantees, and
+                        implied warranties. You can wear gemstones and perform rituals only when you have faith. Do not
+                        do anything out of fear and greed. Our company does not offer guaranteed results recommending
+                        astrological remedies. We will not be liable for any interpretations of data published on our
+                        website.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- *****************************footer section *********************** -->
+    <footer class="py-2 nav-bg text-center ">
+        <a href="">
+            <img src="assets/image/ast-logo.png" alt="ast-logo" class="img-fluid" width="50" height="50">
+
+        </a>
+        <div class="container">
+            <div class="row">
+                <ul class="d-flex justify-content-center flex-wrap  my-auto ">
+                    <li class="me-3">
+                        <a href="index.html" class="t-color fw-bold">Home </a>
+                    </li>
+
+                    <li class="me-3">
+                        <a href="index.html/#contact" class="t-color fw-bold">Contact Us </a>
+                    </li>
+                    <li class="me-3">
+                        <a href="about-us.html" class="t-color fw-bold">About Us
+                        </a>
+                    </li>
+                    <li class="me-3">
+                        <a class="t-color fw-bold" aria-current="page" href="services.html">Services</a>
+
+                    </li>
+                    <li class="me-3">
+                        <a href="Term&condition.html" class="t-color fw-bold">Term & Conditions </a>
+                    </li>
+                    <li class="me-3">
+                        <a href="privacy.html" class="t-color fw-bold">Privacy & Policy </a>
+                    </li>
+                    <li class="me-3">
+                        <a href="pricing-policy.html" class="t-color fw-bold">Pricing & Policy</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" aria-current="page" href="pricing-policy.html">Pricing & Policy</a>
+                    </li>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ************************ jquery******************* -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- main js -->
+
+
+    <!-- ********************** Bootstrap js********************** -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <!--      slick slider js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Aos animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

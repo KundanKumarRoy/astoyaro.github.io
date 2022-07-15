@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astro Yaro</title>
+    <!-- <link rel="shortcut icon" type="image/png" href="asset/image/Frame 6929
+      favicon.png"> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- ******************* Fontawesome link********************** -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+    <!-- ****************** Bootstrap css******************** -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- **********************slick slider ******************** -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <!-- ********************** Custome Css ********************* -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-12 col-md-4">
+                <div class="contact-details">
+                    <ul class="d-flex list-unstyled mb-0 py-2 justify-content-center
+              justify-content-md-start">
+                        <li>
+                            <i class="fas fa-phone-alt icon-color me-2"></i>
+                            +91 400-4544-721
+
+                        </li>
+                        <li class="ms-3">
+                            <a href="" class="text-decoration-none text-dark">
+                                <i class="fa
+                    fa-envelope-o icon-color me-2"></i>
+                                suport@mail.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="auther-panel">
+                    <ul class="d-flex list-unstyled mb-0 justify-content-evenly">
+                        <li>
+                            <a href="" class="text-dark text-decoration-none">
+                                <i class="fa fa-sign-in icon-color me-2"></i>
+                                Log In
+                            </a>
+
+                        </li>
+                        <li class="">
+                            <a href="" class="text-dark text-decoration-none">
+                                <i class="fa
+                    fa-user-plus icon-color me-2"></i>
+                                Sign Up
+                            </a>
+                        </li>
+                        <li class="form-drop-menu">
+                            <a href="" class="text-dark text-decoration-none">
+                                <i class="fa
+                    fa-search  me-2"></i>
+
+                            </a>
+
+                        </li>
+                        <li class="">
+                            <a href="" class="text-dark text-decoration-none">
+                                <i class="fa
+                    fa-shopping-cart  me-2"></i>
+
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div> -->
+    <!-- ************************** NavBar Start************************* -->
+    <nav class="navbar navbar-expand-lg  nav-bg  mt-md-0 " id="navbar">
+        <div class="container">
+            <a class="navbar-brand t-color fw-bold" href="#">
+                <img src="assets/image/ast-logo.png" alt="ast-logo" class="img-fluid" width="50" height="50">
+            </a>
+            <button class="navbar-toggler  font-color border border-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon font-color" style="line-height: 1.7;">
+                    <i class="fas fa-bars text-white"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item me-3">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" aria-current="page" href="about-us.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" aria-current="page" href="services.html">Services</a>
+
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" aria-current="page" href="Term&condition.html">Term & Conditions</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" aria-current="page" href="privacy.html">Privacy & Policy</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" aria-current="page" href="pricing-policy.html">Pricing & Policy</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Term & Condition -->
+    <section class="py-5 all-hero">
+        <div class="container">
+            <div class="row">
+                <h2 class="abt-us text-white position-relative  text-center">Our Services</h2>
+            </div>
+        </div>
+
+    </section>
+    <!-- Services Content -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class=" py-3 heading position-relative">-: Services :- </h3>
+
+                    <p>Life is skeptical! Astrology comes into sight when science cannot answer the uncertainties. Are you
+                        in search of the best astrologer that will help you predict the shortcomings of the future? If yes,
+                        your search ends here! Consult with the best, most efficient, and experienced astrologers in
+                        horoscope reading, numerology, tarot reading, palm reading, Vaastu, etc without any hassle. For
+                        concerns relating to business, marriage, health, careers, and much more, we connect you with the
+                        greatest astrologers. With the help of an astrologer online in your city, you can find a solution to
+                        all your problems.
+                        Horoscopes
+                        A horoscope is a prediction of your future based on the month of your birth. Get your free horoscope
+                        forecast from the finest astrologer today! Read what your zodiac sign reveals about the day. While
+                        the predictions might not invariably be precise for all, they might however be worthwhile. These
+                        future predictions will always guide the people in taking some important decisions of their life.
+                        Find out what the day, the week, the month, and year has for you; with our daily, weekly, monthly,
+                        and annual horoscopes guided by experienced and professional astrologers!
+    
+                        Many people are curious about their astrological signs and wish to check their birth charts.
+                        However, reading horoscopes is considerably superior to simply know your zodiac sign. It's a
+                        wonderful thing to have cosmic guidance to assist you.</p>  
+
+                    <h3 class=" py-3 heading position-relative">-: Numerology :- </h3>
+                   <p> Numerology is the branch of Astrology that deals with self-discovery and foretelling of the future.
+                    It assists in the finding of the world's unseen meanings. It serves as a guide to highlighting your
+                    skill sets and flaws and depicting your changes of doing several activities in your lifetime.
+
+                    Numerology has proven to be completely reliable when it comes to making life's most important and
+                    hardest decisions. It can also help people get closer to opportunities by revealing the components
+                    that cause favorable outcomes.</p>
+
+                   
+                    <h3 class=" py-3 heading position-relative">-:  Palm reading :- </h3>
+
+                    <p>Palm reading can provide information about your future. Palm reading even called palmistry or
+                        chiromancy is a type of prophecy that has its origins in Indian astrology as well as gypsy
+                        fortune-telling. Thepalm of a person's hand is used to gage their personality and other areas of
+                        their lives.
+    
+                        Every line on your palm indicates a different aspect of your life, such as your love life, your
+                        professional life, and everything that the future awaits. A lot of questions concerning your
+                        personal life, love life, and family concerns becoming troublesome? Astro Yaro is here to answer all
+                        of them!</p>
+
+                   
+                    <h3 class=" py-3 heading position-relative">-:   Tarot reading :- </h3>
+                        <p>
+                            Tarot card reading is a kind of cartomancy in which practitioners supposedly use tarot cards to
+                            acquire insight into the past, present, or future. You will ask any question about your life, the
+                            Tarot Card reader will use the cards to answer your question and interpret your life
+                            condition/future. Tarot card reading can help you bring clarity in life, help you focus on
+                            improvement areas, improve decision making and bring you peace.
+
+                            It is a fantastic notion that is being used all over the world to help people.</p>
+
+                   
+                    <h3 class=" py-3 heading position-relative">-:   Kundli matching :- </h3>
+
+                   <p> Kundli matching can be used to determine the level of compatibility between two spouses. The
+                    physical and mental compatibility of two people can be determined via Kundli matching. The planetary
+                    alignment and positions in both individuals' horoscopes can reveal their behavioral habits.
+
+                    The odds of childbirth, as well as the happiness and health of the children, are all factors that
+                    Kundli Matching can reveal. Nadi, the eighth Guna, carries the most points and might thus indicate
+                    the likelihood of having offspring or the challenges that surround it. Kundli matching can also be
+                    used to assess the health of the prospective bride and groom. It also reveals the level of physical
+                    attraction between the prospective couple, ensuring that the future bride and groom retain the
+                    appropriate level of desirability.</p>
+
+                    
+                    <h3 class=" py-3 heading position-relative">-:  New-born baby Naam Karan :- </h3>
+
+                    <p>Discover the baby’s name that is astrologically accurate for your child. Can your baby’s name decide
+                        their future? As per Astrology, baby names are selected based on the date of birth of the child.
+                        Vedic astrology brings into account the zodiac sign and/or sun sign of your baby while choosing a
+                        term that will bestow good fate and fortune upon the newborn as well as upon his/her family.
+                        Both in the lives of the babies and their families, names and their sounds can elicit some
+                        astonishing vibes and energy. They should be uplifting and contribute to the development of the
+                        individual to whom they are given. Because each letter and sound is unique, it energizes and
+                        activates distinct planets and their positions. As a result, baby names that are preserved on the
+                        basis of their birth dates are recognized to be the best choices.
+                        The babies enter the cosmic universe with their own separate souls and fates as soon as they arrive.
+                        The newborns' names symbolize their connection to the universe. The significance of naming the
+                        infant is revealed through a genuine astrological ritual so that it resonates with the cosmic
+                        world's vibes and transforms into a haven of joy and blooming energy.
+    </p>
+                  
+                    <h3 class=" py-3 heading position-relative">-:    Vaastu Consultancy :- </h3>
+
+                    <p>Vastu is the balancing of five elements: earth, water, space, air, and fire; when all five elements
+                        are placed in an exact ratio, positive bio-electric energy is produced, which provides health,
+                        riches, prosperity, happiness, and serenity to residents. Astrology, on the other hand, is the study
+                        of celestial bodies' locations and aspects in the idea that they have influence over natural (i.e.,
+                        earthly) and human events. An Astro-Vaastu analysis is based on three parameters: the individual's
+                        horoscope, (ii) Vastu Principles, and (iii) the favorable time or Muhurata.</p>
+
+                   <p> Vaastu and Astrology are connected in some way. Vaastu is concerned with the correct directions,
+                    while Astrology considers planets, houses, and signs that have the correct directions. The
+                    relationship between Vastu and Astrology shows that each direction has distinct effects on different
+                    people. Thus, an individual's horoscope is essential in order to do an accurate Astro-Vastu
+                    analysis.</p>
+
+                  <p>  Personal Vastu should align with an individual's horoscope in order for them to be successful in
+                    life and enjoy prosperity and pleasure. Vastu principles can certainly enhance situations; but, an
+                    Astro-Vastu can fully transform an individual's life, bringing them the highest level of
+                    fulfillment, happiness, and tranquility.</p>
+
+                   
+                    <h3 class=" py-3 heading position-relative">-: Gemstone reading :- </h3>
+
+                    <p>Gemstones are one of the most well-known Astrological remedies. Only a few people are aware that
+                        gemstones are not a Vedic kind of cure, but rather a method that originated in the Middle East and
+                        was brought to India. Vedic astrology has included gemstones in its melting pot because the method
+                        has been in use for so long.</p>
+
+                   <p> You can get your horoscope scanned for good gemstones based on the natal positions of the planets.
+                    This one-of-a-kind analysis contains not only the gemstones' benefits but also the areas in which
+                    they will improve. An aspect that is never mentioned in the negative list of jewels, includes those
+                    that should not be worn due to potential bad effects.</p>
+
+                    
+                    <h3 class=" py-3 heading position-relative">-: Spiritual Astrology Profile :- </h3>
+                    <p>
+                        The spiritual inclination is one of the few uplifted states of mind that is motivated by something
+                        other than monetary gain. It's something we're born with, or it's a reaction to material satiation
+                        or the desire to cut back on material pursuits. Spirituality and religion are frequently confused,
+                        yet they are extremely different. While religion tries to impose moral weight on people to prove
+                        their spirituality, Spiritualism, on the other hand, relieves people of any burden or
+                        responsibility, allowing them to live a more uplifting existence.
+                    </p>
+                    <p>Astrology identifies spirituality in different forms. Spirituality can enter your life in a variety
+                        of ways, depending on your destiny; like Detachment Oriented Spiritualism, Knowledge-driven
+                        Spiritualism, weakness-driven Spiritualism, passion-driven Spiritualism, etc.</p>
+
+                    
+                    <h3 class=" py-3 heading position-relative">-:Progeny Prospects Report :- </h3>
+                    <p>
+                        There are some situations where medical science may not be able to offer you the answers you
+                        require. This void can be filled through Vedic Astrology. One such area is progeny astrology. The
+                        Progeny Prospects report from Astro Yaro may be the answer to your queries about childbirth.</p>
+
+                    <p>You may want to have a family and have children, but you may be having difficulties giving birth.
+                        We've found a solution. Vedic Astrology has the ability to predict childbirth and any complications
+                        that the couple may encounter. The Progeny Prospects Report is the name given to this report. The
+                        analysis is done in regard to infertility issues caused by malefic impacts of certain planets or
+                        doshas in the natal chart. In some circumstances, practical astrology remedies are recommended in
+                        order to reduce the negative impacts of planets, if any, and to increase the chances of having
+                        children.
+                    </p>
+                   
+                    <h3 class=" py-3 heading position-relative">-: Child Astrology :- </h3>
+
+                   <p> Having a kid is one of life's greatest blessings for a parent. It's an adventure as well as a
+                    mystery to raise kids. "How will my child turn out?" is a question that bothers every parent. This
+                    is when the Child Astrology report is useful.
+                    Astro Yaro will offer professional astrological readings that have helped people all over the world.
+                    Parents will be able to better recognize their child's talent. They will be able to learn about
+                    their child's overall luck, as well as their ability to bring riches to the family.
+                    It's a complete and exhaustive glimpse into your child's future. Decoding almost all of the events
+                    that will influence their life, especially for first-time parents, can be a stress reliever. The
+                    report ensures that you are aware of the finer points of your child's general personality, as well
+                    as the areas in which they can demonstrate growth and nearly all of the challenges that they may
+                    face as they mature into adults. The Child Astrology report can be a valuable resource because it
+                    can predict key health difficulties that your child may suffer. Knowing your child's strengths,
+                    weaknesses, and karmic chakras can assist you as a parent guide them toward success and
+                    life-affirming happiness.</p>
+
+                    
+                    <h3 class=" py-3 heading position-relative">-: Past Life Regression :- </h3>
+
+                   <p> Have you ever pondered what form you took in a previous life? There is a way to find out for
+                    yourself if this is the case. Former life regression treatment is a type of hypnotherapy in which a
+                    person can travel back in time and relive their past lives. It is a type of treatment in which the
+                    practitioner looks for evidence of a previous life in your subconscious mind and helps you reconnect
+                    with those memories. It can help us tackle challenges in our current lives by allowing us to access
+                    those experiences and talk about them.</p>
+
+                    <p>It is merely a technique for guiding our mind through the chaos of life and into a quiet, tranquil
+                        and deep condition. Once you're at ease, the practitioner by your side will ask you what you're
+                        feeling or seeing while allowing the emotions to flow freely. As you tell the professional what
+                        you're hearing, seeing, or feeling, they take notes and share solutions that can improve your
+                        current situation.</p>
+                    <p>
+                        At Astro Yaro, we frequently encounter people who believe that the agony and misery they are
+                        experiencing in this incarnation is merely the result of their previous lives' actions, as do our
+                        astrologers. However, other people wonder if they shouldn't have been created as humans in the first
+                        place if they did awful things in their previous lives. The solution lies in the fact that certain
+                        people are purposefully made human by the divine and are then swamped with troubles as a result of
+                        the crimes they may have committed in a previous incarnation. Surprisingly, this treatment can also
+                        be used to examine past life and current soulmate encounters. You can also learn life lessons
+                        swiftly via previous life regression therapy, which would take a typical human a lifetime to master.
+                        Birth Time selection</p>
+
+                    <p>With the improvement of medical techniques, parents now have the option of planning their child's
+                        birth and selecting a day and time for their child's birth several weeks in advance. Birth Time
+                        Selection is an Astro Yaro’s special service that allows you to choose the most auspicious day and
+                        time for your child's birth from among the possibilities provided by your doctor. It would be
+                        advantageous for both the baby and the family if your kid was born on a lucky date and hour.</p>
+
+                   <p> Our skilled Vedic astrologer will first compile both parents' birth charts using their dates, times,
+                    and places of birth, and then investigate the houses that regulate pregnancy, childbirth, and family
+                    growth. You will be given the optimum time of birth for your child after studying certain planetary
+                    positions and combinations, which will be favorable for the child as well as the family in terms of
+                    general luck, prosperity, fortune, domestic harmony, good health, and so on.
+</p>
+                
+                    <h3 class=" py-3 heading position-relative">-:  Health Lifestyle Report :- </h3>
+
+                   <p> Two things that have been lost cannot be recovered, according to Vedic wisdom. The first is 'life,'
+                    and the second is 'health.' When it comes to health, the human body faces two challenges: genetics
+                    and DNA that we are born with, and how we maintain and nurture our bodies.</p>
+
+                    <p>While we can't control our genes, we can certainly control our lifestyle and food to ensure that our
+                        bodies degrade as little as possible. Our lifestyle has a variety of effects on our health
+                        throughout our lives. People with a very basic diet and lifestyle are more likely to suffer from
+                        heart attacks, hypertension, and diabetes, yet other obsessive body abusers, who eat rich foods,
+                        drink heavily, and smoke, appear to thrive and be in good condition. The explanation lies in a
+                        combination of genetics and planetary alignments that determine whether or not a person is
+                        susceptible to or immune to specific lifestyle diseases. You can order a Lifestyle Health Report to
+                        assist you in unraveling your own body as well as the planetary mystery and chemistry.</p>
+
+                  
+                    <h3 class=" py-3 heading position-relative">-: Varshphal Annual Birthday horoscope :- </h3>
+
+                    <p>Your birthday is an important annual occasion when the Sun returns to the same position it was at
+                        the time of your birth, down to the degrees and minutes. Birthdays are a great opportunity to set
+                        new resolutions and goals, as well as plan out the rest of the year. A Solar Return horoscope is a
+                        notion in Vedic Astrology that is computed at the time and place when your Sun reaches the exact
+                        degree and minute that it was at your birthday, year, and time.</p>
+
+                   <p> The phrase Solar Return, or a 'Varshphal' in Sanskrit and Vedic nomenclature, refers to the annual
+                    realignment that results in your birthday horoscope being formed for the exact moment at which this
+                    conjunction occurs (these swings by up to 12 hours every year). The Varshphal is a scientific
+                    horoscope that is valid for exactly one year, beginning with this year and ending with your next
+                    birthday.</p>
+
+                    
+                    <h3 class=" py-3 heading position-relative">-:Fortune Reading - Dasha :- </h3>
+
+                   <p> Dasha is a unique Vedic concept that assigns various planets definite time periods ranging from 6 to
+                    20 years to display their effects over your lifetime. The consequences of a Dasha in operation
+                    transcend all other impacts that are experienced due to various transits of planets, Sade-Sati, and
+                    similar astrological events, according to Vedic Astrology.
+                </p>
+                    <p>The Dasha system has a 120-year full cycle that is divided into nine segments, each of which is held
+                        by a different planet. We look forward to the parts of the cycle when the contributing planets are
+                        strong. Whenever you've had a change in your life, whether for the better or for the worse, it's
+                        always been due to a shift in your operating Dasha. It's all about predicting patterns in your
+                        professional, financial, and personal lives, regardless of how long you've been doing it.</p>
+<p>
+    You could have a very powerful planet in your birth chart, but if that planet's Dasha does not work
+    at the appropriate time in your life, it will be like "rain in the ocean," with no benefit.
+    Similarly, you may have seen that some people succeed early in life, while others succeed later in
+    life. All of this occurs as a result of a beneficent Dasha being operative at some point in their
+    life, either early or late.
+</p>
+                   
+                    <h3 class=" py-3 heading position-relative">-: Nakshatras Detailed Reading :- </h3>
+
+                   <p> Before the Zodiac signs (Aries through Pisces) came into use, the original Vedic tool of measure for
+                    planetary placements was the Nakshatras or Constellations. Our research team has decided to
+                    reintroduce our members to the highly skilled technique of Nakshatra-based readings. The entire
+                    Zodiac spread is divided into 27 Nakshatras (28 if Abhijit Nakshatra is included), as opposed to the
+                    Zodiac signs, which are divided into 12 portions and are therefore less precise than the Nakshatra
+                    system.
+                    </p>
+                   <p>
+                    In Vedic astrology, the usage of Nakshatra is far more essential than the use of zodiac signs. The
+                    abodes into which the results of our effort (our Karma) are transferred and kept are known as
+                    Nakshatras. The presence of planets and other deities in these Nakshatras aids in the analysis of an
+                    individual's basic nature and how it influences various periods of their existence.
+
+                   </p>
+                   
+                    <h3 class=" py-3 heading position-relative"> -:  ShubhMuhurat’s :- </h3>
+
+                  <p>  The astrological term for favorable and bad times is muhurat.' It is said that completing a task
+                    during an auspicious muhurat increases the odds of success. That is, if you do the task at the
+                    correct Muhurtha, it will provide you with the best possible result in accordance with your destiny.
+                    As a result, muhurat should be considered before beginning any action.
+</p>
+                    <p>There are different auspicious muhurats for different works, just as there are different remedies
+                        for different maladies. Muhurats were used in early Vedic times to perform yajnas, but due to their
+                        numerous benefits and advantages, there has been an increased demand for muhurats in our daily
+                        lives.</p>
+
+                    <p>Muhurat is extremely beneficial to those who do not have a birth chart or who have a dosha. These
+                        individuals appear to have completed their responsibilities successfully after following an
+                        auspicious muhurat. Marriage is thought to be the start of a new life. Muhurat is very important in
+                        marriage since it forecasts the most auspicious time and date for the marriage in order to ensure
+                        optimal compatibility and happy life.</p>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- *****************************footer section *********************** -->
+    <footer class="py-2 nav-bg text-center ">
+        <a href="">
+            <img src="assets/image/ast-logo.png" alt="ast-logo" class="img-fluid" width="50" height="50">
+
+        </a>
+        <div class="container">
+            <div class="row">
+                <ul class="d-flex justify-content-center flex-wrap  my-auto ">
+                    <li class="me-3">
+                        <a href="index.html" class="t-color fw-bold">Home </a>
+                    </li>
+
+                    <li class="me-3">
+                        <a href="index.html/#contact" class="t-color fw-bold">Contact Us </a>
+                    </li>
+                    <li class="me-3">
+                        <a href="about-us.html" class="t-color fw-bold">About Us
+                        </a>
+                    </li>
+                    <li class="me-3">
+                        <a class="t-color fw-bold" aria-current="page" href="services.html">Services</a>
+
+                    </li>
+                    <li class="me-3">
+                        <a href="Term&condition.html" class="t-color fw-bold">Term & Conditions </a>
+                    </li>
+                    <li class="me-3">
+                        <a href="privacy.html" class="t-color fw-bold">Privacy & Policy </a> 
+                    </li>
+                    <li class="me-3">
+                        <a href="pricing-policy.html" class="t-color fw-bold">Pricing & Policy</a>
+                    </li>
+                    
+            </div>
+        </div>
+    </footer>
+
+    <!-- ************************ jquery******************* -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- main js -->
+
+
+    <!-- ********************** Bootstrap js********************** -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <!--      slick slider js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Aos animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
